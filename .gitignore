@@ -1,0 +1,4 @@
+wp-config.php
+composer.lock
+vendor
+wp

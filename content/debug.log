@@ -1,0 +1,7 @@
+[30-Jul-2019 19:52:11 UTC] PHP Warning:  fileperms(): stat failed for /var/www/html/Spe/wordpress-chall2/wp/index.php in /var/www/html/Spe/wordpress-chall2/wp/wp-admin/includes/file.php on line 1779
+[30-Jul-2019 19:52:11 UTC] PHP Stack trace:
+[30-Jul-2019 19:52:11 UTC] PHP   1. {main}() /var/www/html/Spe/wordpress-chall2/wp/wp-admin/update-core.php:0
+[30-Jul-2019 19:52:11 UTC] PHP   2. Language_Pack_Upgrader->bulk_upgrade() /var/www/html/Spe/wordpress-chall2/wp/wp-admin/update-core.php:856
+[30-Jul-2019 19:52:11 UTC] PHP   3. Language_Pack_Upgrader->fs_connect() /var/www/html/Spe/wordpress-chall2/wp/wp-admin/includes/class-language-pack-upgrader.php:206
+[30-Jul-2019 19:52:11 UTC] PHP   4. WP_Filesystem() /var/www/html/Spe/wordpress-chall2/wp/wp-admin/includes/class-wp-upgrader.php:192
+[30-Jul-2019 19:52:11 UTC] PHP   5. fileperms() /var/www/html/Spe/wordpress-chall2/wp/wp-admin/includes/file.php:1779
